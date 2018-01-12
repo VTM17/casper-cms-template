@@ -1,2 +1,3 @@
 # Redirect domain aliases to primary domain
 https://pcsolotto.online/* https://lottoinfo.ph/:splat 301!
+https://mamparo.email/* https://lottoinfo.ph/:splat 301!
