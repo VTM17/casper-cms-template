@@ -15,3 +15,5 @@ comments:
         format: "timestamp-seconds"
 
   path: "_data/comments/{options.slug}"
+
+requiredFields: ["name", "email", "message"]
