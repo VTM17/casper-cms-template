@@ -1,0 +1,17 @@
+comments:
+
+  allowedFields: ["name", "email", "url", "message"]
+
+  branch: "master"
+
+  filename: "entry{@timestamp}"
+
+  format: "yaml"
+
+  generatedFields:
+    date:
+      type: date
+      options:
+        format: "timestamp-seconds"
+
+  path: "_data/comments/{options.slug}"
